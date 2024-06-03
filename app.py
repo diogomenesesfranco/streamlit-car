@@ -1184,7 +1184,7 @@ def main():
         st.markdown("<h2 style='text-left: center; color: yellow;'>MOTOR WEB</h2>", unsafe_allow_html=True)
         st.markdown("<h3 style='text-left: center; color: white;'>Bem-vindo ao Sistema de Previsão de Preço de Veículos!</h3>", unsafe_allow_html=True)
         st.write("""
-            Este sistema foi desenvolvido para oferecer uma estimativa do valor de mercado de veículos com base em diversas variáveis do mercado automotivo. 
+            Este sistema foi desenvolvido para oferecer uma estimativa do valor de mercado em dólar de veículos com base em diversas variáveis do mercado automotivo. 
             Nossa tecnologia utiliza algoritmos avançados para analisar as tendências atuais do mercado e considerar fatores importantes, como:
 
             - Idade do Veículo
@@ -1204,7 +1204,7 @@ def main():
     elif navbar == "Previsão de Preço":
         st.markdown("<h2 style='text-left: center; color: yellow;'>Previsão de Preço do Veículo</h2>", unsafe_allow_html=True)
         st.write("""
-                 Nossa plataforma analisa cuidadosamente os dados do veículo para prever seu valor de mercado. 
+                 Nossa plataforma analisa cuidadosamente os dados do veículo para prever seu valor de mercado em dólar. 
                  Com base nas informações fornecidas, oferecemos uma estimativa precisa do preço do veículo. 
                  Nosso objetivo é ajudá-lo a entender o valor atual do veículo no mercado automotivo. 
                  Após fornecer todas as informações necessárias, clique no botão Enviar para gerar a estimativa de preço do veículo.
