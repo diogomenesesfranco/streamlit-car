@@ -1170,7 +1170,7 @@ def interface_previsao():
     
     # Exibir o preço previsto com uma formatação melhor em reias
     preco_formatado = locale.format_string("%.2f", preco.item(), grouping=True)
-    st.markdown(f'<p style="font-size: 25px; font-weight: bold;">Preço Previsto do Veículo: R$ {preco_formatado}</p>', unsafe_allow_html=True)
+    st.markdown(f'<p style="font-size: 25px; font-weight: bold;">Preço Previsto do Veículo: $ {preco_formatado}</p>', unsafe_allow_html=True)
        
 def main(): 
     st.set_page_config(page_title="Motor Web", page_icon="🚗")
@@ -1184,7 +1184,8 @@ def main():
         st.markdown("<h2 style='text-left: center; color: yellow;'>MOTOR WEB</h2>", unsafe_allow_html=True)
         st.markdown("<h3 style='text-left: center; color: white;'>Bem-vindo ao Sistema de Previsão de Preço de Veículos!</h3>", unsafe_allow_html=True)
         st.write("""
-            Este sistema foi desenvolvido para oferecer uma estimativa do valor de mercado de veículos com base em diversas variáveis do mercado automotivo. Nossa tecnologia utiliza algoritmos avançados para analisar as tendências atuais do mercado e considerar fatores importantes, como:
+            Este sistema foi desenvolvido para oferecer uma estimativa do valor de mercado de veículos com base em diversas variáveis do mercado automotivo. 
+            Nossa tecnologia utiliza algoritmos avançados para analisar as tendências atuais do mercado e considerar fatores importantes, como:
 
             - Idade do Veículo
             - Preço da Tabela Fipe
